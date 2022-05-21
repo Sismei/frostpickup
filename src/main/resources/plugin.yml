@@ -1,0 +1,20 @@
+name: FrostPickup
+version: '${project.version}'
+main: com.sismei.frostpickup.FrostPickup
+api-version: 1.18
+authors: [ Sismei ]
+softdepend:
+  - StackableItems
+commands:
+  AutoPickup:
+    aliases: [ap]
+    description: Displays AutoPickup Help
+    usage: /ap help
+  AutoSmelt:
+    aliases: [as]
+    description: Displays AutoPickup Help
+    usage: /as help
+  AutoBlock:
+    aliases: [ab]
+    description: Displays AutoPickup Help
+    usage: /ab help
